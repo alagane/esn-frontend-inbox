@@ -73,7 +73,7 @@ angular.module('esn.inbox.libs')
     }
 
     function isShareableMailbox(mailbox) {
-      const mailboxRole = mailbox.role.value;
+      const mailboxRole = mailbox.role;
 
       if (mailboxRole !== null) {
         return !_.contains(INBOX_MAILBOXES_NON_SHAREABLE, mailboxRole.toLowerCase());

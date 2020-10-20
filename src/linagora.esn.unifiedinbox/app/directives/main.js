@@ -91,8 +91,8 @@ require('../services.js');
 
           function getMailboxIcon() {
             return scope.mailbox.icon ||
-              inboxCustomRoleMailboxService.getMailboxIcon(scope.mailbox.role.value) ||
-              MAILBOX_ROLE_ICONS_MAPPING[scope.mailbox.role.value || 'default'];
+              inboxCustomRoleMailboxService.getMailboxIcon(scope.mailbox.role) ||
+              MAILBOX_ROLE_ICONS_MAPPING[scope.mailbox.role || 'default'];
           }
         }
       };

@@ -58,7 +58,7 @@ describe('The inboxFolderSettings controller', function() {
 
     controller.emptyTrash(mailbox.id);
 
-    expect(mailbox.role.value).to.equal('trash');
+    expect(mailbox.role).to.equal('trash');
     expect(inboxJmapItemService.emptyMailbox).to.have.been.calledWith(mailbox.id);
   });
 

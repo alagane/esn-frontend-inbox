@@ -52,6 +52,7 @@
     "html-webpack-plugin": "^4.3.0",
     "ignore-loader": "^0.1.2",
     "jquery-mockjax": "2.2.1",
+    "jmap-client-ts": "git://git@github.com:OpenPaaS-Suite/jmap-client-ts.git#mvp",
     "karma": "4.2.0",
     "karma-firefox-launcher": "1.1.0",
     "karma-mocha": "1.1.1",

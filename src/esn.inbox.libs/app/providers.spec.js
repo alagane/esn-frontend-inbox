@@ -108,7 +108,7 @@ describe('The Unified Inbox Angular module providers', function() {
 
       jmapClient = {
         getMailboxWithRole: function(role) {
-          return $q.when({ id: 'id_' + role.value });
+          return $q.when({ id: 'id_' + role });
         },
         getMessageList: function(options) {
           expect(options.filter).to.deep.equal({
