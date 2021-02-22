@@ -18,7 +18,7 @@
     "angularjs-dragula": "2.0.0",
     "dompurify": "~2.2.0",
     "esn-api-client": "github:openpaas-suite/esn-api-client#main",
-    "esn-frontend-common-libs": "github:openpaas-suite/esn-frontend-common-libs#main",
+    "esn-frontend-common-libs": "github:alagane/esn-frontend-common-libs#use-auth-config-window",
     "esn-frontend-inbox-calendar": "github:openpaas-suite/esn-frontend-inbox-calendar#main",
     "esn-frontend-inbox-linshare": "github:openpaas-suite/esn-frontend-inbox-linshare#main",
     "jmap-draft-client": "^0.1.3",

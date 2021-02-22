@@ -19,9 +19,12 @@ const BASE_HREF = process.env.BASE_HREF || '/';
 const OPENPAAS_URL = process.env.OPENPAAS_URL || 'http://localhost:8080';
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    app: './src/index.js',
+    config: './config.js'
+  },
   output: {
-    filename: 'main.js',
+    filename: pathData => (pathData.chunk.name === 'config' ? 'config.js' : 'main.js'),
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/inbox/'
   },
